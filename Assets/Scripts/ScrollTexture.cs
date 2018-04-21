@@ -7,13 +7,13 @@ public class ScrollTexture : MonoBehaviour
     public Vector2 scrollSpeed = Vector2.one;
 
     private Material mat;
-    private Renderer renderer;
+    private Renderer texRenderer;
 
 	// Use this for initialization
 	void Start ()
     {
-        renderer = GetComponent<Renderer>();
-        mat = renderer.material;
+        texRenderer = GetComponent<Renderer>();
+        mat = texRenderer.material;
 	}
 	
 	// Update is called once per frame
