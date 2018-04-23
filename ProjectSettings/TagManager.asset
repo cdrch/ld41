@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - PlayerRailGuide
+  - BrawlerGuide
   layers:
   - Default
   - TransparentFX
